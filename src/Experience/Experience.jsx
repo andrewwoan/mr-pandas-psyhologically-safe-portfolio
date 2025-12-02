@@ -24,7 +24,7 @@ const CameraController = () => {
         ref={camera}
         makeDefault
         fov={39.6}
-        position={[0, 0, -2]}
+        position={[0, 0, -30]}
       />
       {enableOrbitControls && <OrbitControls target={[0, 0, 0]} />}
     </>
